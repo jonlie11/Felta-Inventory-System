@@ -1,0 +1,23 @@
+body{
+    background: url('../images/login-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+div.loginheader{
+    text-align: center;
+}
+
+div.loginheader h1{
+    font-size: 100px;
+    color: #000000;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.loginheader h3 {
+    font-size: 30px;
+    color: #000000;
+    border-bottom: 5px solid #FFA500;
+    display: inline-block;
+    margin: 0 auto;
+}
