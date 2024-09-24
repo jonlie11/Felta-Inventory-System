@@ -1,6 +1,7 @@
 body{
     background: url('../images/login-bg.jpg') no-repeat center center fixed;
     background-size: cover;
+    font-family: 'Lato', sans-serif;
 }
 
 div.loginheader{
@@ -54,12 +55,18 @@ div.loginInputsContainer input{
     text-align: center;
 }
 
-div.loginButtonContainer{
-    margin-top: 40px;
-    text-align: center;
-}
+    div.loginButtonContainer{
+        margin-top: 40px;
+        text-align: center;
+        border-radius: 8px;
 
-div.loginButtonContainer button{
-    font-size: 20px;
-    padding: 20px;
-}
+    }
+
+    div.loginButtonContainer button{
+        font-size: 20px;
+        padding: 10px 20px;
+        background: #FFA500;
+        border: 2px solid;
+        color: #FFFF;
+        border-radius: 10px;
+    }
