@@ -11,14 +11,14 @@ div.loginheader{
 
 div.loginheader h1{
     font-size: 80px;
-    color: #000000;
+    color: #ffff;
     padding: 0px;
     margin: 0px;
 }
 
 div.loginheader h3 {
     font-size: 30px;
-    color: #000000;
+    color: #ffff;
     border-bottom: 5px solid #FFA500;
     display: inline-block;
     margin: 0 auto;

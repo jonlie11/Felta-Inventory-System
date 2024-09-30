@@ -1,6 +1,13 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+    background: #f8f8ff;
+}
+
 #dashboardMainContainer{
     display: flex;
     flex-direction: row;
+    font-family: 'Lato',sans-serif;
 }
 .dashboard_menu_list {
     list-style-type: none;
@@ -10,7 +17,10 @@
 .dashboard_sidebar{
     width: 30%;
     background: #393D47;
-    height: 100vh;
+    height: 150vh;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 div.dashboard_content_container{
     width: 70%;
@@ -30,29 +40,73 @@ div.dashboard_sidebar_user{
 }
 
 div.dashboard_sidebar_user img{
-    width: 60px;
+    width: 80px;
     display: inline-block;
     border-radius: 50%;
     border: 2px solid #ffa500;
     margin-right: 5px;
+    vertical-align: middle;
 }
 
-div.dashboard_sidebar_user span{
-    position: relative;
-    top:20%
-    font-size: 20px;
+.dashboard_sidebar_user span{
+    top:20%;
+    font-size: 18px;
     text-transform: uppercase;
     color: #ffff;
     display: inline-block;
 }
 
+ul.dashboard_menu_list{
+    margin-top: 20px;
+}
+
 ul.dashboard_menu_list li{
-    padding: 10px 20px;
-    font-size: 18px;
+    padding: 15px 15px;
     text-transform: uppercase;
 }
 
 ul.dashboard_menu_list li a{
     text-decoration: none;
     color: #fff;
+    height: 100%;
+    display: block;
+    font-size: 20px;
 }
+
+ul.dashboard_menu_list li.menuActive{
+    background: #ffa500;
+    color: #fff;
+}
+
+ul.dashboard_menu_list li:hover{
+    background: #ffa500;
+    color: #fff;
+    transition: 0.3s all;
+}
+
+div.dashboard_topNav{
+    background: #ffff;
+    padding: 20px;
+}
+
+div.dashboard_topNav a{
+    color: #848383;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a#logOutBtn{
+    float: right;
+}
+
+div.dashboard_content{
+    padding: 50px 10px 10px 10px;
+}
+
+
+div.dashboard_content_main{
+    background:#ffff;
+    min-height: 800px;
+    height: 100%;
+}
+
